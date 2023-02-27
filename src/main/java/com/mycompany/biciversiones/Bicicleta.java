@@ -17,4 +17,9 @@ public double acelerar() {
     return this.velocidad * 3;
     }
 
+public double frenar() {
+    System.out.println("FRENAMOS!!!");
+    return this.velocidad / 3;
+    }
+
 }
