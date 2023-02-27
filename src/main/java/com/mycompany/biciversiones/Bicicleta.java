@@ -27,4 +27,9 @@ public int cambiarPinion(int pñ) {
     return this.pinion = pñ;
 }
 
+public int cambiarPlato(int p) {
+    System.out.println("CAMBIA DE PLATO");
+    return this.plato = p;
+}
+
 }
