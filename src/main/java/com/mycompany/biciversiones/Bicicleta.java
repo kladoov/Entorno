@@ -12,4 +12,9 @@ public Bicicleta () {
     System.out.println("BIKE CREATED");
     }
 
+public double acelerar() {
+    System.out.println("ACELERAMOS!!!");
+    return this.velocidad * 3;
+    }
+
 }
