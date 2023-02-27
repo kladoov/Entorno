@@ -22,4 +22,9 @@ public double frenar() {
     return this.velocidad / 3;
     }
 
+public int cambiarPinion(int pñ) {
+    System.out.println("CAMBIA DE PIÑON");
+    return this.pinion = pñ;
+}
+
 }
